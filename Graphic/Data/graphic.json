@@ -1,0 +1,384 @@
+{
+    "Texture": [
+        {
+            "ID": 0,
+            "Name": "container2.png"
+        },
+        {
+            "ID": 1,
+            "Name": "container2_specular.png"
+        },
+        {
+            "ID": 2,
+            "Name": "matrix.png"
+        },
+        {
+            "ID": 3,
+            "Name": "grass.png"
+        },
+        {
+            "ID": 4,
+            "Name": "blending_transparent_window.png"
+        },
+        {
+            "ID": 5,
+            "Name": "brickwall.jpg"
+        },
+        {
+            "ID": 6,
+            "Name": "brickwall_normal.jpg"
+        },
+        {
+            "ID": 7,
+            "Name": "bricks2.jpg"
+        },
+        {
+            "ID": 8,
+            "Name": "bricks2_normal.jpg"
+        },
+        {
+            "ID": 9,
+            "Name": "bricks2_disp.jpg"
+        },
+        {
+            "ID": 10,
+            "Name": "StoneWall.jpg"
+        },
+        {
+            "ID": 11,
+            "Name": "StoneWall_normal.jpg"
+        },
+        {
+            "ID": 12,
+            "Name": "StoneWall_disp.png"
+        },
+        {
+            "ID": 13,
+            "Name": "StoneFloor.png"
+        },
+        {
+            "ID": 14,
+            "Name": "StoneFloor_normal.png"
+        },
+        {
+            "ID": 15,
+            "Name": "StoneFloor_disp.png"
+        },
+        {
+            "ID": 16,
+            "Name": "Space.png"
+        }
+    ],
+    "Shader": [
+        {
+            "ID": 0,
+            "Name": "Standard3DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 8,
+            "Name": "CubeMapVertex",
+            "Type": 0
+        },
+        {
+            "ID": 2,
+            "Name": "Texture3DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 10,
+            "Name": "CubeMapReflectVertex",
+            "Type": 0
+        },
+        {
+            "ID": 4,
+            "Name": "Material3DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 6,
+            "Name": "Texture2DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 14,
+            "Name": "Shadow3DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 13,
+            "Name": "Instance3DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 16,
+            "Name": "ShadowMap3DVertex",
+            "Type": 0
+        },
+        {
+            "ID": 18,
+            "Name": "DepthCubeVertex",
+            "Type": 0
+        },
+        {
+            "ID": 21,
+            "Name": "TextureShadowVertex",
+            "Type": 0
+        },
+        {
+            "ID": 23,
+            "Name": "WallVertex",
+            "Type": 0
+        },
+        {
+            "ID": 30,
+            "Name": "TextureGBuffer",
+            "Type": 0
+        },
+        {
+            "ID": 32,
+            "Name": "GBuffer",
+            "Type": 0
+        },
+        {
+            "ID": 34,
+            "Name": "InstanceModel",
+            "Type": 0
+        },
+        {
+            "ID": 37,
+            "Name": "ModelEffect",
+            "Type": 0
+        },
+        {
+            "ID": 36,
+            "Name": "ModelEffect",
+            "Type": 2
+        },
+        {
+            "ID": 12,
+            "Name": "Material3DGeometry",
+            "Type": 2
+        },
+        {
+            "ID": 20,
+            "Name": "DepthCubeGeometry",
+            "Type": 2
+        },
+        {
+            "ID": 1,
+            "Name": "Standard3DFragment",
+            "Type": 1
+        },
+        {
+            "ID": 9,
+            "Name": "CubeMapFragment",
+            "Type": 1
+        },
+        {
+            "ID": 17,
+            "Name": "ShadowMap3DFragment",
+            "Type": 1
+        },
+        {
+            "ID": 3,
+            "Name": "Texture3DFragment",
+            "Type": 1
+        },
+        {
+            "ID": 11,
+            "Name": "CubeMapReflectFragment",
+            "Type": 1
+        },
+        {
+            "ID": 5,
+            "Name": "Material3DFragment",
+            "Type": 1
+        },
+        {
+            "ID": 7,
+            "Name": "Texture2DFragment",
+            "Type": 1
+        },
+        {
+            "ID": 15,
+            "Name": "Shadow3DFragment",
+            "Type": 1
+        },
+        {
+            "ID": 19,
+            "Name": "DepthCubeFragment",
+            "Type": 1
+        },
+        {
+            "ID": 22,
+            "Name": "TextureShadowFragment",
+            "Type": 1
+        },
+        {
+            "ID": 24,
+            "Name": "WallFragment",
+            "Type": 1
+        },
+        {
+            "ID": 25,
+            "Name": "Texture2DBlur",
+            "Type": 1
+        },
+        {
+            "ID": 27,
+            "Name": "LightFragment",
+            "Type": 1
+        },
+        {
+            "ID": 28,
+            "Name": "AmbientFragment",
+            "Type": 1
+        },
+        {
+            "ID": 29,
+            "Name": "SSAOBlurFragment",
+            "Type": 1
+        },
+        {
+            "ID": 31,
+            "Name": "TextureGBuffer",
+            "Type": 1
+        },
+        {
+            "ID": 33,
+            "Name": "GBuffer",
+            "Type": 1
+        },
+        {
+            "ID": 35,
+            "Name": "InstanceModel",
+            "Type": 1
+        }
+    ],
+    "Program": [
+        {
+            "Name": "Standard3DProgram",
+            "ID": 0,
+            "VertexID": 0,
+            "FragmentID": 1
+        },
+        {
+            "Name": "Texture3DProgram",
+            "ID": 1,
+            "VertexID": 2,
+            "FragmentID": 3
+        },
+        {
+            "Name": "Material3DProgram",
+            "ID": 2,
+            "VertexID": 4,
+            "FragmentID": 5,
+            "GeometryID": 12
+        },
+        {
+            "Name": "Texture2DProgram",
+            "ID": 3,
+            "VertexID": 6,
+            "FragmentID": 7
+        },
+        {
+            "Name": "CubeMapProgram",
+            "ID": 4,
+            "VertexID": 8,
+            "FragmentID": 9
+        },
+        {
+            "Name": "CubeMapReflectProgram",
+            "ID": 5,
+            "VertexID": 10,
+            "FragmentID": 11
+        },
+        {
+            "Name": "InstanceProgram",
+            "ID": 6,
+            "VertexID": 13,
+            "FragmentID": 3
+        },
+        {
+            "Name": "ShadowProgram",
+            "ID": 7,
+            "VertexID": 14,
+            "FragmentID": 15
+        },
+        {
+            "Name": "ShadowMapProgram",
+            "ID": 8,
+            "VertexID": 16,
+            "FragmentID": 17
+        },
+        {
+            "Name": "DepthCubeProgram",
+            "ID": 9,
+            "VertexID": 18,
+            "FragmentID": 19,
+            "GeometryID": 20
+        },
+        {
+            "Name": "TextureShadowProgram",
+            "ID": 10,
+            "VertexID": 21,
+            "FragmentID": 22
+        },
+        {
+            "Name": "WallProgram",
+            "ID": 11,
+            "VertexID": 23,
+            "FragmentID": 24
+        },
+        {
+            "Name": "Texture2DBlur",
+            "ID": 12,
+            "VertexID": 6,
+            "FragmentID": 25
+        },
+        {
+            "Name": "LightProgram",
+            "ID": 13,
+            "VertexID": 6,
+            "FragmentID": 27
+        },
+        {
+            "Name": "SSAOProgram",
+            "ID": 14,
+            "VertexID": 6,
+            "FragmentID": 28
+        },
+        {
+            "Name": "SSAOBlurProgram",
+            "ID": 15,
+            "VertexID": 6,
+            "FragmentID": 29
+        },
+        {
+            "Name": "TextureGBufferProgram",
+            "ID": 16,
+            "VertexID": 30,
+            "FragmentID": 31
+        },
+        {
+            "Name": "GBufferProgram",
+            "ID": 17,
+            "VertexID": 32,
+            "FragmentID": 33
+        },
+        {
+            "Name": "InstanceModel",
+            "ID": 18,
+            "VertexID": 34,
+            "FragmentID": 35
+        },
+        {
+            "Name": "EffectModel",
+            "ID": 19,
+            "VertexID": 37,
+            "FragmentID": 31,
+            "GeometryID": 36
+        }
+    ]
+}

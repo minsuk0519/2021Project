@@ -1,0 +1,41 @@
+[{
+		"Name": "Box",
+		"Position": [0.0, 0.0, 0.0],
+		"Rotation": [0.0, 0.0, 0.0],
+		"Scale": [1.0, 1.0, 1.0],
+		"Shiness": 0.6,
+		"Ambient": [0.0215, 0.1745, 0.0215],
+		"Diffuse": [0.07568, 0.61422, 0.07568],
+		"Specular": [0.633, 0.72781, 0.633],
+		"FaceSize": 36,
+		"ProgramID": 17,
+		"VAOID": 2
+	},{
+		"Name": "Wall",
+		"Position": [0.0, 0.0, 0.0],
+		"Rotation": [0.0, 0.0, 0.0],
+		"Scale": [5.0, 5.0, 5.0],
+		"Shiness": 0.25,
+		"Ambient": [0.0215, 0.1745, 0.0215],
+		"Diffuse": [0.07568, 0.61422, 0.07568],
+		"Specular": [0.633, 0.72781, 0.633],
+		"FaceSize": 36,
+		"ProgramID": 11,
+		"VAOID": 1,
+		"Texture": [10, 11, 12],
+		"Type": 2
+	},{
+		"Name": "Floor",
+		"Position": [0.0, 0.0, 0.0],
+		"Rotation": [-90.0, 0.0, 0.0],
+		"Scale": [5.0, 5.0, 5.0],
+		"Shiness": 0.25,
+		"Ambient": [0.0215, 0.1745, 0.0215],
+		"Diffuse": [0.07568, 0.61422, 0.07568],
+		"Specular": [0.633, 0.72781, 0.633],
+		"FaceSize": 36,
+		"ProgramID": 11,
+		"VAOID": 1,
+		"Texture": [13, 14, 15],
+		"Type": 2
+	}]

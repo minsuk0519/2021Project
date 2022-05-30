@@ -1,0 +1,79 @@
+[{
+		"Camera": {
+            "Front": [-0.0, 0.0, -1.0],
+            "Up": [0.0, 1.0, 0.0],
+            "Position": [0.0, 0.0, -40.0],
+            "Ambient": [0.2, 0.2, 0.2],
+            "Diffuse": [0.5, 0.5, 0.5],
+            "Specular": [1.0, 1.0, 1.0]
+        },
+        "Objects": [{
+                "Name": "Light4",
+                "Position": [0.0, 5.0, -35.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [0.2, 0.2, 0.2],
+                "Shiness": 0.6,
+                "Ambient": [0.2, 0.2, 0.2],
+                "Diffuse": [0.5, 0.5, 0.5],
+                "Specular": [2.0, 2.0, 2.0],
+                "FaceSize": 36,
+                "ProgramID": 0,
+                "VAOID": 0,
+				"Type": 1,
+				"Attenuation": [0.14, 0.07]
+            },{
+                "Name": "Light5",
+                "Position": [0.0, -0.1, -46.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [0.0, 0.0, 0.0],
+                "Shiness": 0.6,
+                "Ambient": [0.2, 0.2, 0.2],
+                "Diffuse": [0.5, 0.5, 0.5],
+                "Specular": [2.0, 2.0, 2.0],
+                "FaceSize": 36,
+                "ProgramID": 0,
+                "VAOID": 0,
+				"Type": 1,
+				"Attenuation": [0.35, 0.44]
+            },{
+                "Name": "Light",
+                "Position": [3.0, 3.0, -1.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [0.2, 0.2, 0.2],
+                "Shiness": 0.6,
+                "Ambient": [1.0, 1.0, 1.0],
+                "Diffuse": [1.0, 1.0, 1.0],
+                "Specular": [1.0, 1.0, 1.0],
+                "FaceSize": 36,
+                "ProgramID": 0,
+                "VAOID": 0,
+				"Type": 0
+            },{
+                "Name": "Cage",
+                "Position": [0.0, 5.0, -33.5],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [20.0, 20.0, 20.0],
+                "Shiness": 0.6,
+                "Ambient": [0.0215, 0.1745, 0.0215],
+                "Diffuse": [0.07568, 0.61422, 0.07568],
+                "Specular": [0.633, 0.72781, 0.633],
+                "FaceSize": 36,
+                "ProgramID": 16,
+                "VAOID": 6,
+				"Texture": [16, 16]
+            },{
+                "Name": "Rock",
+                "Position": [0.0, -5.0, -33.5],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [0.4, 0.4, 0.4],
+                "Shiness": 0.6,
+                "Ambient": [0.0215, 0.1745, 0.0215],
+                "Diffuse": [0.07568, 0.61422, 0.07568],
+                "Specular": [0.633, 0.72781, 0.633],
+                "FaceSize": 36,
+                "ProgramID": 18,
+                "VAOID": 2,
+				"Model": "rock_moss_set_02_1k.gltf",
+				"Instance": 600
+            }]
+	}]

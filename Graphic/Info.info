@@ -1,0 +1,53 @@
+std::cout << "Error occured : Cannot initialize GLFW!" << std::endl;
+
+Graphic
+{
+	std::unordered_map<unsigned int, Program*> mPrograms;
+	std::unordered_map<unsigned int, Shader*> mVertexShader;
+	std::unordered_map<unsigned int, Shader*> mFragmentShader;
+	std::unordered_map<unsigned int, Texture*> mTextures;
+
+	unsigned int mVertexBufferObject[GL::VBO::MAX];
+	unsigned int mVertexArrayObject[GL::VAO::MAX];
+	unsigned int mElementBufferObject[GL::EBO::MAX];
+	unsigned int mUniformBufferObject[GL::UBO::MAX];
+
+	unsigned int mFrameBufferObject;
+	unsigned int mRenderBufferObject;
+	Texture* mScreenTexture;
+}
+
+Window
+{
+	int Windowsize[2];
+	GLFWwindow* Window;
+}
+
+Interface
+{
+	bool mActive;
+
+	Object* mDetail;
+}
+
+Input
+{
+	std::bitset<GLFW_KEY_LAST> mPressed;
+	std::bitset<GLFW_KEY_LAST> mTriggered;
+
+	float mMousepos[2];
+}
+
+Engine
+{
+	LevelBase* mCurrentLevel;
+	std::vector<LevelBase*> mLevels;
+	bool mOpenGUI;
+}
+
+UNIFORM EXPLICIT LOCATION
+{
+	viewPos		: 101
+	model		: 100
+	lightMat	: 102
+}
